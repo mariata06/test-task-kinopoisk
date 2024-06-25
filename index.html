@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test task kinopoisk</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <h1 class="visually-hidden">Рейтинг фильмов кинопоиска</h1>
+        <div class="movie-grid" id="movie-grid"></div>
+        <form class="contact-form">
+            <div class="contact-form__wrapper">
+                <label for="name">Имя:</label>
+                <input type="text" id="name" required>
+            </div>
+            <div class="contact-form__wrapper">
+                <label for="phone">Телефон:</label>
+                <input type="tel" id="phone" required>
+            </div>
+            <button type="button" onclick="validateForm()">Отправить</button>
+        </form>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
